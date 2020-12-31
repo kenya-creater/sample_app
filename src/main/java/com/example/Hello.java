@@ -18,6 +18,7 @@ public class Hello extends HttpServlet {
     out.println("<html><body>");
     out.println("<h1>Hello World!</h1>");
     out.println(InetAddress.getLocalHost().getHostName());
+    out.println(InetAddress.getLocalHost().getHostAddress());
     out.println("</body></html>");
   }
 }
